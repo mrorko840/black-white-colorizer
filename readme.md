@@ -36,7 +36,16 @@ cd black-white-colorizer
 ### Step 2: Create a Virtual Environment (Recommended)
 ```sh
 python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+```
+
+#### On Windows, use (git bash):
+```sh 
+source venv/Scripts/activate
+```
+**or**
+#### On MacOs, use (terminal):
+```sh
+source venv/bin/activate
 ```
 
 ### Step 3: Install Dependencies
@@ -48,7 +57,7 @@ pip install -r requirements.txt
 
 Run the application using:
 ```sh
-python main.py
+python app.py
 ```
 
 ### To Make Application (Optional)
@@ -64,9 +73,9 @@ pyinstaller --windowed --name "ImageColorize" --icon=icon.ico --add-data="assets
 
 ## 🖼️ Screenshots
 
-| Upload B&W Image                                                       | Colorized Output |
-|------------------------------------------------------------------------|----------------|
-| <img style="max-width:280px;" src="https://i.imgur.com/pJA8rjf.png" /> | <img style="max-width:280px;" src="https://i.imgur.com/8R95mQ2.png" /> |
+| Upload B&W Image                                                       | Colorized Output                                                       |
+|------------------------------------------------------------------------|------------------------------------------------------------------------|
+| <img style="max-width:250px;" src="https://i.imgur.com/pJA8rjf.png" /> | <img style="max-width:250px;" src="https://i.imgur.com/8R95mQ2.png" /> |
 
 ## 🛠️ Troubleshooting
 
