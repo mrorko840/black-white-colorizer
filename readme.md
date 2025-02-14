@@ -16,7 +16,7 @@ A deep learning-based application that colorizes black and white images using **
 ## 🖥️ Tech Stack
 
 - **Python**
-- **PyQt6**
+- **PyQt6** (For Gui)
 - **Torch** (Deep Learning Model)
 - **scikit-image**
 - **numpy**
