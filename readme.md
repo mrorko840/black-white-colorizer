@@ -27,7 +27,7 @@ A deep learning-based application that colorizes black and white images using **
 
 ## 📂 Installation
 
-### Step 1: Download Ai Model (git-bash or terminal)
+### Step 1: Download Ai Model - run it: (Git Bash or terminal)
 ```sh
 mkdir -p ~/.cache/torch/hub/checkpoints
 curl -o ~/.cache/torch/hub/checkpoints/siggraph17-df00044c.pth "https://colorizers.s3.us-east-2.amazonaws.com/siggraph17-df00044c.pth"
