@@ -1,0 +1,10 @@
+torch
+scikit-image
+numpy
+matplotlib
+argparse
+Pillow
+PyQt6
+torchvision
+pillow
+pyinstaller

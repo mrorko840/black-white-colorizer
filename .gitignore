@@ -1,0 +1,44 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.o
+*.a
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# PyQt related cache
+*.pyc
+*.pyo
+.mypy_cache/
+.PyQt6/
+
+# Build artifacts
+dist/
+build/
+*.spec
+
+# Cloudinary cache (if any)
+cloudinary_cache/
+
+# Python Packaging
+*.egg-info/
