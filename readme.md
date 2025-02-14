@@ -27,13 +27,19 @@ A deep learning-based application that colorizes black and white images using **
 
 ## 📂 Installation
 
-### Step 1: Clone the Repository
+### Step 1: Download Ai Model (git-bash or terminal)
+```sh
+mkdir -p ~/.cache/torch/hub/checkpoints
+curl -o ~/.cache/torch/hub/checkpoints/siggraph17-df00044c.pth "https://colorizers.s3.us-east-2.amazonaws.com/siggraph17-df00044c.pth"
+```
+
+### Step 2: Clone the Repository
 ```sh
 git clone https://github.com/mrorko840/black-white-colorizer.git
 cd black-white-colorizer
 ```
 
-### Step 2: Create a Virtual Environment (Recommended)
+### Step 3: Create a Virtual Environment (Recommended)
 ```sh
 python -m venv venv
 ```
@@ -48,7 +54,7 @@ source venv/Scripts/activate
 source venv/bin/activate
 ```
 
-### Step 3: Install Dependencies
+### Step 4: Install Dependencies
 ```sh
 pip install -r requirements.txt
 ```
